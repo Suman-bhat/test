@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(176, 173, 173);
+}
+
+.allign {
+  padding-bottom: 10px;
+}
+
+.button-style {
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 5px;
+  width: 20rem;
+  height: 3rem;
+  /* justify-content: space-between; */
+  text-align: center;
+  display: absolute;
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 1rem 1rem 1rem;
+}
+button {
+  display: flex;
+  justify-content: space-evenly;
+  height: 20px;
+  width: 100px;
+  padding: 2rem 2rem 2rem rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-content: center;
+}
+
+.primary {
+  color: rgb(22, 98, 98);
+  border: 2px solid rgb(1, 55, 55);
+}
+.secondary {
+  color: blue;
+  border: 2px solid rgb(6, 6, 121);
+}
+.danger {
+  color: red;
+  border: 2px solid rgb(130, 10, 10);
+}
+.success {
+  color: green;
+  border: 2px solid rgb(4, 59, 4);
+}
+.warning {
+  color: orange;
+  border: 2px solid rgb(96, 65, 7);
+}
+.label {
+  color: grey;
+  display: flex;
+  justify-content: space-around;
+}
+.renderedLink {
+  font-size: medium;
+  color: blue;
+  font-style: normal;
+  padding: 1rem 1rem 1rem 1rem;
+  width: fit-content;
+}
+.link {
+  display: flex;
+}
